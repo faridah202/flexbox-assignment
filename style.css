@@ -10,7 +10,7 @@ body {
           flex-direction: row;
           justify-content: center;
           align-items: center;
-          min-height: 100vh;
+          min-height: 90vh;
    }
     .column { width: 200px; 
        text-align: left;
@@ -60,13 +60,6 @@ body {
      }
      .luxury:hover {
                    background-color:  hsl(179, 100%, 13%);
-                   color: hsl(0, 0%, 95%); } 
-
-       @media screen and (max-width: 600px)
-       {
-          .column {
-                 width: 50%;
-          }
-       }  
+                   color: hsl(0, 0%, 95%); }  
 
     
