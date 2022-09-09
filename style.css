@@ -16,16 +16,17 @@ body {
        text-align: left;
        height: 350px;
        padding: 20px;
+       border-radius: 3px;
     }
           button {
               background-color: hsl(0, 0%, 95%);
               border: 1px solid white;
-
               border-radius: 25px;
               text-align: center;
               font-size: 13px;
               padding: 10px 24px;
               cursor: pointer;
+              margin-top: 70px;
    
        }
        h1 {
