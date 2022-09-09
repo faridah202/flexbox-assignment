@@ -3,24 +3,25 @@ body {
     font-size: 15px;
 }
 
+
 section {
        background-color:hsl(0, 0%, 95%);
        display: flex;
-       flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 90vh; 
-}
+       flex-flow: row nowrap;
+       justify-content: center;
+  align-items: center; 
+  min-height: 100vh;
 
- section > div {
+}
+section > div {
        width: 200px; 
        text-align: left;
        height: 350px;
        padding: 20px;
-       align-items: center;  
+  
        
   }  
-  
+
  
  div:first-child{
          background-color: hsl(31, 77%, 52%);
@@ -29,12 +30,12 @@ section {
  div:nth-child(2){
         background-color: hsl(184, 100%, 22%);
         border: 2px solid hsl(184, 100%, 22%);
- }
+       }
 
  div:last-child{
             background-color: hsl(179, 100%, 13%);
             border:2px solid hsl(179, 100%, 13%);
- }                                 
+ }                       
  div button {
            background-color: hsl(0, 0%, 95%);
            border: 1px solid white;
@@ -43,7 +44,6 @@ section {
            font-size: 13px;
            padding: 10px 24px;
            cursor: pointer;
-           margin-top: 80px;
 
     }
     h1 {
