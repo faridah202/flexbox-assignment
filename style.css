@@ -4,18 +4,19 @@
 
 body {
        background-color:hsl(0, 0%, 95%);
-       font-size: 15px;
+       font-size: 1em;
    }
    
    
-   .row {
+   main {
           background-color:hsl(0, 0%, 95%);
           display: flex;
           justify-content: center;
           align-items: center;
           min-height: 100vh;
    }
-    .column { width: 200px; 
+    div {
+        width: 15vw; 
        text-align: left;
        height: 350px;
        padding: 20px;
@@ -27,9 +28,22 @@ body {
               text-align: center;
               padding: 10px 24px;
               cursor: pointer;
-              margin-top: 70px;
+              margin-top: 65px;
    
        }
+
+.Csedan{
+       background-color: hsl(31, 77%, 52%);
+       border-radius: 7px 0 0 7px;
+}
+
+.Cluxury{
+       background-color: hsl(179, 100%, 13%); 
+       border-radius: 0 7px 7px 0; 
+}
+.Csuv{
+       background-color: hsl(184, 100%, 22%);
+}
        h1 {
           font-family: 'Big Shoulders Display', cursive;
           color: hsl(0, 0%, 95%);
@@ -63,4 +77,32 @@ body {
                    background-color:  hsl(179, 100%, 13%);
                    color: hsl(0, 0%, 95%); }  
 
-    
+    @media (max-width: 768px){
+       main{
+              flex-direction: column;
+       }
+       div{
+              width: 10vw;
+       }
+       .Csedan{
+              border-radius: 7px 7px 0 0;
+       }
+       .Cluxury{
+              border-radius: 0 0 7px 7px;
+       }
+    }
+
+    @media (max-width: 400px){
+       main{
+              flex-direction: column;
+       }
+       div{
+              width:10vw;
+       }
+       .Csedan{
+              border-radius: 7px 7px 0 0;
+       }
+       .Cluxury{
+              border-radius: 0 0 7px 7px;
+       }
+    }

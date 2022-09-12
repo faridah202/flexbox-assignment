@@ -1,34 +1,64 @@
 ## Welcome! 👋
 
-To do this challenge, you need a basic understanding of HTML, CSS flexbox and media queries.
+This is a solution to a preview card.
+
+## Table of contents
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+
+## Overview
 
 ## The challenge
 
-Your challenge is to build the design image displayed in the images folder.
+My challenge was to build the design image displayed in the images folder, using HTML, CSS amd Media Queries.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+### Screenshot
 
-## Your users should be able to:
+![](Screenshot (65).png)
 
-View the optimal layout for the site depending on their device's screen size
-See hover states for all interactive elements on the page
-Where to find everything
+### Links
 
-You will find all the required assets in the /images folder. The assets are already optimized.
+- Solution URL: (https://github.com/faridah202/flexbox-assignment.git)
+- Live Site URL: (https://peaceful-kitsune-f7d4f5.netlify.app/)
 
-## Building your project
+## My process
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+### Built with
 
-1. Initialize your project as a public repository on GitHub. This will make it easier to share your code with the community if you need some help. If you're not sure how to do this, have a read through of this Try Git resource.
-2. Configure your repository to publish your code to a URL. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, but we recommend using netlify.
+- Semantic HTML5 markup
+- Flexbox
+- CSS media queries
 
-## Deploying your project
+### What I learned
 
-As mentioned above, there are a number of ways to host your project for free. We recommend using netflify as it's an amazing service and extremely simple to get set up with.
+I learnt how to use media queries to build a responsive and a well tailored page layout.
 
-3. Sign up to netlify and go through the onboarding flow, ensuring your GitHub account is connected by using their netlify for GitHub integration.
-4. Connect your project to netlify from the "Import project" page, using the "From Git Repository" button and selecting the project you want to deploy.
-   Once connected, every time you git push, netlify will create a new deployment and the deployment URL will be shown on your Dashboard.
+@media (max-width: 768px){
+       row{
+              flex-direction: column;
+       }
+       column{
+              width: 170px;
+       }
+    }
 
-**Have fun building!** 🚀
+
+### Continued development
+
+My understanding of media queries and flexbox is not good yet, i would like to refine this techniques and styling in future projects.
+
+### Useful resources
+
+- [Example resource 1]('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap') - This helped me with my font. I really liked this font and will use it going forward.
+
+## Author
+
+- Website - [Faridat Oricha](https://faridah202.git)
