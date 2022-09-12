@@ -16,7 +16,7 @@ body {
           min-height: 100vh;
    }
     div {
-        width: 15vw; 
+        width: 15%; 
        text-align: left;
        height: 350px;
        padding: 20px;
@@ -80,9 +80,10 @@ body {
     @media (max-width: 768px){
        main{
               flex-direction: column;
+              height: 100vh;
        }
        div{
-              width: 10vw;
+              width: 15%;
        }
        .Csedan{
               border-radius: 7px 7px 0 0;
@@ -95,9 +96,10 @@ body {
     @media (max-width: 400px){
        main{
               flex-direction: column;
+              height: 100vh;
        }
        div{
-              width:10vw;
+              width:20%;
        }
        .Csedan{
               border-radius: 7px 7px 0 0;
